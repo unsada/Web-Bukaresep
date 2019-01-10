@@ -1,0 +1,291 @@
+  body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+  }
+  
+  nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px #cacaca;
+    z-index: 1;
+  }
+  
+  nav .logo{
+    float: left;
+  }
+  
+  nav ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li{
+    list-style: none;
+    padding-top: 15px;
+  }
+  
+  nav ul li a{
+    list-style: 80px;
+    color: #262626;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.5s;
+
+  }
+
+  .menu-footer{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 160px;
+    font-family: 'Staatliches', cursive;
+  }
+
+  .menu-footer a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+  }
+
+  .text-social{
+    font-size: 30px;
+    color: white;
+    font-family: 'Staatliches', cursive;
+    box-sizing: border-box;
+  }
+  
+  section.sec1{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/masak2.jpg);
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:;
+  }
+
+  section.content{
+    padding: 50px;
+  }
+
+  .content-box{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(3, 250px);
+    text-align: center; 
+    padding: 100px 200px 100px 200px;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+  }
+
+  .content-artikel{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(3, 250px);
+    text-align: center; 
+    padding: 200px 200px 100px 200px;
+    grid-row-gap: 20px;
+    margin-bottom: -200px;
+    grid-column-gap: 20px;
+  }
+
+  .content-resep{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(3, 250px);
+    text-align: center; 
+    padding: 160px 200px 100px 200px;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+  }
+
+  .content-resep .box{
+    background-color: rgba(0, 64, 255, 0.4);
+  }
+
+  .content-box .box{
+    background-color: rgba(0, 64, 255, 0.4);
+  }
+
+  .content-artikel .box{
+    background-color: rgba(0, 64, 255, 0.4);
+  }
+
+
+  .social-footer{
+    background-color: #262626;
+    height: 230px;
+  }
+
+  .copyright{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .tagline{
+    font-size: 80px;
+    z-index: 1;
+    color: white;
+    padding-top: 200px;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Staatliches', cursive;
+    position: relative;
+  }
+
+  .sec1 .tagline{
+    text-align: center
+  }
+
+.tag{
+  margin-left: 500px;
+  padding-bottom: -100px;
+  color: white;
+  position: relative;
+  font-size: 25px;
+}
+
+.btn-tag{
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px;
+  margin-left: 590px;
+  background: #4286f4;
+  cursor: pointer;
+}
+
+a .btn-tag{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+.middle{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.btn-logo{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #3498db;
+  margin: 10px;
+  border-radius: 100%;
+  box-shadow: 0 10px -5px #00000070;
+  color: #262626;
+  overflow: hidden;
+  position: relative;
+  top: 70px;
+  clear: both;
+}
+
+.btn-logo i{
+  line-height: 40px;
+}
+
+.btn-logo:hover i{
+  transform: scale(1.9); 
+}
+
+.footer{
+  background-color: #3498db;
+  height: 70px;
+  position: relative;
+  clear: both;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+.content{
+  padding: 100px;
+  padding-top: 80px;
+  width: 960px;
+  height: auto;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-about{
+  background:url(../img/bgabout.jpg) no-repeat;
+  background-image: cover;
+  background-attachment: fixed;
+}
+
+.page-artikel{
+  background: url(../img/bgartikel.jpg) no-repeat;
+  background-image: cover;
+  background-attachment: fixed;
+}
+
+.artikel-highlight{
+  background: url(../img/bg-artikel.jpg);
+  background-attachment: fixed;
+}
+
+.artikel-box{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    text-align: center;
+    padding:  200px;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+  }
+
+  .artikel-box .in-box{
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .in-box{
+    text-decoration: none;
+    color: black;
+  }
+
+  .desk-content {
+    text-align: justify;
+  }
+
+  .img-box {
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+  }
+
+  .title {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .box .title {
+    color: #e3e3e3;
+  }
+
+  .search{
+    background: white;
+    border: 1px solid white;
+    cursor: pointer;
+    padding-top: 10px;
+  }
